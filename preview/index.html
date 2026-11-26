@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  />
+  <title>Bhanu Singh · Mobile Engineering</title>
+  <link rel="stylesheet" href="./style.css" />
+  <header>
+    <a class="brand" href="#intro"><b>bs.</b> Bhanu Singh</a>
+    <nav aria-label="Main">
+      <a href="#experience">Experience</a><a href="#projects">Projects</a
+      ><a href="https://github.com/bhanu2795">GitHub ↗</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="intro">
+      <div>
+        <p class="kicker">React Native Technical Lead</p>
+        <h1>Bhanu<br /><em>Singh.</em></h1>
+        <p class="summary">
+          I build mobile and web applications with React Native, React, and
+          TypeScript.
+        </p>
+        <div class="actions">
+          <a class="primary" href="#projects">Explore projects</a
+          ><button disabled title="Available when a CV is published">
+            Download CV
+          </button>
+        </div>
+      </div>
+      <div class="studio" aria-label="Cab Booking concept preview">
+        <div class="orbit"></div>
+        <div class="phone">
+          <div class="speaker"></div>
+          <small>Cab Booking</small><strong>Find your ride</strong>
+          <div class="mini-map"></div>
+          <div class="trip"><i></i>Riverfront Station</div>
+          <div class="trip"><i></i>Market Square</div>
+        </div>
+        <span class="caption">Cab Booking · interface study</span>
+      </div>
+    </section>
+    <section id="experience" class="experience">
+      <p class="kicker">Professional experience</p>
+      <div>
+        <h2>Riyad Bank</h2>
+        <p>
+          I worked on the mobile login flow using ForgeRock APIs and mentored
+          junior developers.
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="kicker">Independent learning projects</p>
+      <h2>Cab Booking<span>.</span></h2>
+      <p class="summary">
+        Explore three screens from the proposed booking flow.
+      </p>
+      <div class="showcase">
+        <div class="map-panel">
+          <svg viewBox="0 0 400 230" aria-hidden="true">
+            <defs>
+              <pattern
+                id="blocks"
+                width="65"
+                height="46"
+                patternTransform="rotate(-16)"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x="4"
+                  y="4"
+                  width="56"
+                  height="37"
+                  rx="5"
+                  fill="#213952"
+                />
+              </pattern>
+            </defs>
+            <rect width="400" height="230" fill="url(#blocks)" />
+            <path
+              id="route"
+              d="M72 157 L148 135 L131 80 L298 32"
+              fill="none"
+              stroke="#9dccff"
+              stroke-width="5"
+              stroke-linejoin="round"
+            />
+            <circle cx="72" cy="157" r="9" fill="#e4f6be" />
+            <circle id="destination" cx="298" cy="32" r="8" fill="#8dbbff" />
+            <circle id="driver" cx="131" cy="80" r="8" fill="#fff" /></svg
+          ><strong id="screen">Choose pickup</strong>
+        </div>
+        <div>
+          <p class="kicker">Interactive concept</p>
+          <div class="steps" role="group" aria-label="Preview screen">
+            <button aria-pressed="true">Choose pickup</button
+            ><button aria-pressed="false">Confirm ride</button
+            ><button aria-pressed="false">Track driver</button>
+          </div>
+          <p id="detail" aria-live="polite">
+            Select Riverfront Station as the pickup point for this sample trip.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>Bhanu Singh <a href="#intro">Back to top ↑</a></footer>
+  <script src="./preview.js"></script>
+</html>
